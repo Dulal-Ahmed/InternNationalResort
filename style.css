@@ -170,6 +170,8 @@ body{
     background: white;
     color: black;
 }
+.topborderStyle{ width: 130px; height: 130px; z-index: -12; border-top: 2px solid black; border-right: 2px solid black; top: -20px; right: -20px;}
+.bottomborderStyle{ width: 130px; height: 130px; z-index: -12; border-bottom: 2px solid black; border-left: 2px solid black; bottom: -20px; left: -20px;}
 
 
 /*  x < 768 */
