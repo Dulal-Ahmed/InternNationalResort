@@ -1,0 +1,504 @@
+
+@import url('http://fonts.cdnfonts.com/css/circular-std?styles=17909,17911,17907,17905');
+
+*{
+ font-family: 'Circular Std', sans-serif;
+
+ box-sizing: border-box;                                               
+}
+html{
+    font-size: 62.5%;
+
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+   --fontsixe100px: 10rem; 
+   --fontsixe66px: 6.6rem; 
+   --fontsixe50px: 5rem; 
+   --fontsixe32px: 3.2rem; 
+   --fontsixe30px: 3rem; 
+   --fontsixe22px: 2.2rem; 
+   --fontsixe20px: 2rem; 
+   --fontsixe18px: 1.8rem; 
+   --fontsixe16px: 1.6rem; 
+   --fontsixe14px: 1.4rem; 
+   --cardheadFont: 1rem;
+   --cardPFont: .8rem;
+}
+.font450width{
+    font-weight: 450;
+}
+.font500width{
+    font-weight: 500;
+}
+.font700width{
+    font-weight: 700;
+}
+.font900width{
+    font-weight: 900;
+ }
+.font100{
+    font-size: var(--fontsixe100px);
+}
+.font66{
+    font-size: var(--fontsixe66px);
+}
+.font50{
+    font-size: var(--fontsixe50px);
+}
+.font32{
+    font-size: var(--fontsixe32px);
+}
+.font30{
+    font-size: var(--fontsixe30px);
+}
+.font22{
+    font-size: var(--fontsixe22px);
+}
+.font20{
+    font-size: var(--fontsixe22px);
+}
+.font18{
+    font-size: var(--fontsixe18px);
+}
+.font16{
+    font-size: var(--fontsixe16px);
+}
+.font14{
+    font-size: var(--fontsixe14px);
+}
+.MinicardHEaderfont{
+    font-size: var(--cardheadFont);
+}
+.miniCardPfont{
+    font-size: var(--cardPFont);
+}
+.max-width{
+    max-width: 1440px;
+    margin: auto;
+}
+.green{
+    color: green;
+}
+.top-10{ top:10%;} .top-20{ top:20%;} .top-30{ top:30%;} .top-40{ top:40%;}
+.end-10{ right: 10%;} .end-20{ right: 20%;} .end-30{ right: 30%;} .end-40{ right: 40%;}
+.bottom-10{bottom: 10%;} .bottom-20{bottom: 20%;} .bottom-30{bottom: 30%;} .bottom-40{bottom: 40%;} 
+.start-10{ left: 10%;} .start-20{ left: 20%;} .start-30{ left: 30%;} .start-40{ left: 40%;}
+ 
+.imgSliderRow img{
+    width: 155px;
+    height: auto;
+    padding: 0 50px;
+}
+.imgSliderRow{
+    margin-top: 250px;
+    padding: 88px 20px;
+    text-align: center;
+}
+.underling{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+/*  image gellery */
+.customimage img{
+  width: 100%;
+  margin-top: 20px;
+}
+/*  after image gellery button class  */
+.btn-row{
+    padding: 16px 32px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.bg-green{
+    background-color: green;
+    color: white;
+}
+/*  wy us section class */
+.customdiv{
+  padding: 40px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+}
+.customdiv img{}
+.customdiv h2{ margin-top: 50px;}
+.customdiv p{margin-top: 50px; max-width: 350px;}
+/*  cursorell custom class */
+.customSlidWidth{
+    flex-direction: column;
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 32px;
+   
+
+}
+.customDsign h3{ 
+    color: #e7e2e2;
+    font-size: 150px;
+}
+.customDsign img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100% ;
+ }
+.customDsign h2{ margin-top: 30px;}
+.customDsign h4{margin-top: 20px; }
+.customDsign p{ margin-top: 30px; }
+
+.icon-img{
+  justify-content: center;
+  column-gap: 20px;
+}
+.icon-img img{
+  width: 40px;
+  height: 40px;
+
+}
+.footer{
+    background: black;
+    color: white;
+    margin-top: 100px;
+    padding: 100px 20px;
+}
+.subscribe{
+    padding: 21px 70px;
+    background: white;
+    color: black;
+}
+
+/*   */
+
+
+
+
+
+
+@media(max-width:1099px){
+ 
+:root{
+    --fontsixe100px: 10rem; 
+    --fontsixe66px: 6.6rem; 
+    --fontsixe50px: 5rem; 
+    --fontsixe32px: 3.2rem; 
+    --fontsixe30px: 3rem; 
+    --fontsixe22px: 2.2rem; 
+    --fontsixe20px: 2rem; 
+    --fontsixe18px: 1.8rem; 
+    --fontsixe16px: 1.6rem; 
+    --fontsixe14px: 1.4rem; 
+    --cardheadFont: 1rem;
+    --cardPFont: .8rem;
+ }
+ .font450width{
+     font-weight: 450;
+ }
+ .font500width{
+     font-weight: 500;
+ }
+ .font700width{
+     font-weight: 700;
+ }
+ .font900width{
+     font-weight: 900;
+  }
+ .font100{
+     font-size: var(--fontsixe100px);
+ }
+ .font66{
+     font-size: var(--fontsixe66px);
+ }
+ .font50{
+     font-size: var(--fontsixe50px);
+ }
+ .font32{
+     font-size: var(--fontsixe32px);
+ }
+ .font30{
+     font-size: var(--fontsixe30px);
+ }
+ .font22{
+     font-size: var(--fontsixe22px);
+ }
+ .font20{
+     font-size: var(--fontsixe22px);
+ }
+ .font18{
+     font-size: var(--fontsixe18px);
+ }
+ .font16{
+     font-size: var(--fontsixe16px);
+ }
+ .font14{
+     font-size: var(--fontsixe14px);
+ }
+ .MinicardHEaderfont{
+     font-size: var(--cardheadFont);
+ }
+ .miniCardPfont{
+     font-size: var(--cardPFont);
+ }
+ .max-width{
+     max-width: 1440px;
+     margin: auto;
+ }
+ .green{
+     color: green;
+ }
+ .top-10{ top:10%;} .top-20{ top:20%;} .top-30{ top:30%;} .top-40{ top:40%;}
+ .end-10{ right: 10%;} .end-20{ right: 20%;} .end-30{ right: 30%;} .end-40{ right: 40%;}
+ .bottom-10{bottom: 10%;} .bottom-20{bottom: 20%;} .bottom-30{bottom: 30%;} .bottom-40{bottom: 40%;} 
+ .start-10{ left: 10%;} .start-20{ left: 20%;} .start-30{ left: 30%;} .start-40{ left: 40%;}
+  
+ .imgSliderRow img{
+     width: 155px;
+     height: auto;
+     padding: 0 50px;
+ }
+ .imgSliderRow{
+     margin-top: 250px;
+     padding: 88px 20px;
+     text-align: center;
+ }
+ .underling{
+     text-decoration: underline;
+     text-underline-offset: 15px;
+ }
+ /*  image gellery */
+ .customimage img{
+   width: 100%;
+   margin-top: 20px;
+ }
+ /*  after image gellery button class  */
+ .btn-row{
+     padding: 16px 32px;
+     max-width: 200px;
+     margin: auto;
+     text-align: center;
+ }
+ .bg-green{
+     background-color: green;
+     color: white;
+ }
+ /*  wy us section class */
+ .customdiv{
+   padding: 40px;
+   background: #FFFFFF;
+   border: 1px solid #DDDDDD;
+   border-radius: 10px;
+ }
+ .customdiv img{}
+ .customdiv h2{ margin-top: 50px;}
+ .customdiv p{margin-top: 50px; max-width: 350px;}
+ /*  cursorell custom class */
+ .customSlidWidth{
+     flex-direction: column;
+     max-width: 60%;
+     text-align: center;
+     margin: auto;
+     padding: 32px;
+    
+ 
+ }
+ .customDsign h3{ 
+     color: #e7e2e2;
+     font-size: 150px;
+ }
+ .customDsign img{
+     width: 100px;
+     height: 100px;
+     border-radius: 100% ;
+  }
+ .customDsign h2{ margin-top: 30px;}
+ .customDsign h4{margin-top: 20px; }
+ .customDsign p{ margin-top: 30px; }
+ 
+ .icon-img{
+   justify-content: center;
+   column-gap: 20px;
+ }
+ .icon-img img{
+   width: 40px;
+   height: 40px;
+ 
+ }
+ .footer{
+     background: black;
+     color: white;
+     margin-top: 100px;
+     padding: 100px 20px;
+ }
+ .subscribe{
+     padding: 21px 70px;
+     background: white;
+     color: black;
+ } 
+}
+
+/*  x < 768 */
+
+
+@media(max-width:768px){
+ 
+    :root{
+        --fontsixe100px: 10rem; 
+        --fontsixe66px: 6.6rem; 
+        --fontsixe50px: 5rem; 
+        --fontsixe32px: 3.2rem; 
+        --fontsixe30px: 3rem; 
+        --fontsixe22px: 2.2rem; 
+        --fontsixe20px: 2rem; 
+        --fontsixe18px: 1.8rem; 
+        --fontsixe16px: 1.6rem; 
+        --fontsixe14px: 1.4rem; 
+        --cardheadFont: 1rem;
+        --cardPFont: .8rem;
+     }
+     .font450width{
+         font-weight: 450;
+     }
+     .font500width{
+         font-weight: 500;
+     }
+     .font700width{
+         font-weight: 700;
+     }
+     .font900width{
+         font-weight: 900;
+      }
+     .font100{
+         font-size: var(--fontsixe100px);
+     }
+     .font66{
+         font-size: var(--fontsixe66px);
+     }
+     .font50{
+         font-size: var(--fontsixe50px);
+     }
+     .font32{
+         font-size: var(--fontsixe32px);
+     }
+     .font30{
+         font-size: var(--fontsixe30px);
+     }
+     .font22{
+         font-size: var(--fontsixe22px);
+     }
+     .font20{
+         font-size: var(--fontsixe22px);
+     }
+     .font18{
+         font-size: var(--fontsixe18px);
+     }
+     .font16{
+         font-size: var(--fontsixe16px);
+     }
+     .font14{
+         font-size: var(--fontsixe14px);
+     }
+     .MinicardHEaderfont{
+         font-size: var(--cardheadFont);
+     }
+     .miniCardPfont{
+         font-size: var(--cardPFont);
+     }
+     .max-width{
+         max-width: 1440px;
+         margin: auto;
+     }
+     .green{
+         color: green;
+     }
+     .top-10{ top:10%;} .top-20{ top:20%;} .top-30{ top:30%;} .top-40{ top:40%;}
+     .end-10{ right: 10%;} .end-20{ right: 20%;} .end-30{ right: 30%;} .end-40{ right: 40%;}
+     .bottom-10{bottom: 10%;} .bottom-20{bottom: 20%;} .bottom-30{bottom: 30%;} .bottom-40{bottom: 40%;} 
+     .start-10{ left: 10%;} .start-20{ left: 20%;} .start-30{ left: 30%;} .start-40{ left: 40%;}
+      
+     .imgSliderRow img{
+         width: 155px;
+         height: auto;
+         padding: 0 50px;
+     }
+     .imgSliderRow{
+         margin-top: 250px;
+         padding: 88px 20px;
+         text-align: center;
+     }
+     .underling{
+         text-decoration: underline;
+         text-underline-offset: 15px;
+     }
+     /*  image gellery */
+     .customimage img{
+       width: 100%;
+       margin-top: 20px;
+     }
+     /*  after image gellery button class  */
+     .btn-row{
+         padding: 16px 32px;
+         max-width: 200px;
+         margin: auto;
+         text-align: center;
+     }
+     .bg-green{
+         background-color: green;
+         color: white;
+     }
+     /*  wy us section class */
+     .customdiv{
+       padding: 40px;
+       background: #FFFFFF;
+       border: 1px solid #DDDDDD;
+       border-radius: 10px;
+     }
+     .customdiv img{}
+     .customdiv h2{ margin-top: 50px;}
+     .customdiv p{margin-top: 50px; max-width: 350px;}
+     /*  cursorell custom class */
+     .customSlidWidth{
+         flex-direction: column;
+         max-width: 60%;
+         text-align: center;
+         margin: auto;
+         padding: 32px;
+        
+     
+     }
+     .customDsign h3{ 
+         color: #e7e2e2;
+         font-size: 150px;
+     }
+     .customDsign img{
+         width: 100px;
+         height: 100px;
+         border-radius: 100% ;
+      }
+     .customDsign h2{ margin-top: 30px;}
+     .customDsign h4{margin-top: 20px; }
+     .customDsign p{ margin-top: 30px; }
+     
+     .icon-img{
+       justify-content: center;
+       column-gap: 20px;
+     }
+     .icon-img img{
+       width: 40px;
+       height: 40px;
+     
+     }
+     .footer{
+         background: black;
+         color: white;
+         margin-top: 100px;
+         padding: 100px 20px;
+     }
+     .subscribe{
+         padding: 21px 70px;
+         background: white;
+         color: black;
+     } 
+    }
